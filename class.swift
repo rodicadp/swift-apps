@@ -1,9 +1,5 @@
 import Foundation
 
-struct t_coeficienti{
-}
-
-
 class t_ec2
 {
   var a, b, c: Float
@@ -21,6 +17,11 @@ class t_ec2
     self.a = a
     self.b = b
     x1_re = 0; x1_im = 0; x2_re = 0; x2_im = 0
+  }
+
+  deinit()
+  {
+    //destructor
   }
 
   func citeste()
